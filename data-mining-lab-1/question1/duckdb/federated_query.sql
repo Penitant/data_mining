@@ -1,8 +1,8 @@
 -- Task E: one query across both systems, no staging either side. read_csv() hits MinIO
 -- over httpfs; pg.* hits Postgres live over the postgres extension; DuckDB joins the
 -- two streams itself.
---   duckdb data/question1/duckdb/annapurna.duckdb \
---       -init data/question1/duckdb/setup.sql -f data/question1/duckdb/federated_query.sql
+--   duckdb question1/duckdb/annapurna.duckdb \
+--       -init question1/duckdb/setup.sql -f question1/duckdb/federated_query.sql
 -- For "which parts ran where", see EXPLAIN of this query in README.md Task E -- read
 -- off the physical plan's operator names, not asserted from documentation.
 

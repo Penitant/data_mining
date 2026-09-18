@@ -1,14 +1,25 @@
 # Exam-provided datasets. Not part of this submission -- see README.md
 # "Getting the provided data in place" for where the evaluator should copy
 # them before running the setup commands.
-data-mining-lab-1/data/data_2.zip
-data-mining-lab-1/data/data_2.zip:Zone.Identifier
-data-mining-lab-1/data/question1/sales/
-data-mining-lab-1/data/question1/_truth/
-data-mining-lab-1/data/question1/masters.sql
-data-mining-lab-1/data/question1/billing_notes.md
-data-mining-lab-1/data/question1/finance_monthly.csv
-data-mining-lab-1/data/question2/
+data-mining-lab-1/data_2.zip
+data-mining-lab-1/data_2.zip:Zone.Identifier
+data-mining-lab-1/question1/sales/
+data-mining-lab-1/question1/_truth/
+data-mining-lab-1/question1/masters.sql
+data-mining-lab-1/question1/billing_notes.md
+data-mining-lab-1/question1/finance_monthly.csv
+data-mining-lab-1/question2/notices/
+data-mining-lab-1/question2/_truth/
+data-mining-lab-1/question2/labelled_pairs.csv
+data-mining-lab-1/question2/portal_profiles.md
 
 # Generated, not authored.
-data-mining-lab-1/data/question1/duckdb/annapurna.duckdb
+data-mining-lab-1/question1/duckdb/annapurna.duckdb
+data-mining-lab-1/question2/authored/.cache_sketches.pkl
+data-mining-lab-1/question2/authored/.cache_filtered.pkl
+data-mining-lab-1/question2/authored/task_c_mitigation_cache.pkl
+data-mining-lab-1/question2/authored/task_c_index_cache.pkl
+data-mining-lab-1/question2/authored/bands.csv
+data-mining-lab-1/question2/authored/task_e_cache.pkl
+__pycache__/
+.venv/

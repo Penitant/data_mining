@@ -1,5 +1,5 @@
 -- Annapurna Stores Q1 -- DuckDB analytical engine bootstrap
--- Run:  duckdb data/question1/duckdb/annapurna.duckdb -init data/question1/duckdb/setup.sql
+-- Run:  duckdb question1/duckdb/annapurna.duckdb -init question1/duckdb/setup.sql
 
 INSTALL httpfs;
 INSTALL postgres;

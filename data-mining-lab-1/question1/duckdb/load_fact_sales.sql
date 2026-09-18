@@ -1,6 +1,6 @@
 -- Idempotent load: fact_sales_line / mart_revenue_daily, rebuilt from raw MinIO files.
---   duckdb data/question1/duckdb/annapurna.duckdb \
---       -init data/question1/duckdb/setup.sql -f data/question1/duckdb/load_fact_sales.sql
+--   duckdb question1/duckdb/annapurna.duckdb \
+--       -init question1/duckdb/setup.sql -f question1/duckdb/load_fact_sales.sql
 --
 -- Strategy: full rebuild from the immutable raw files every run (TRUNCATE-equivalent
 -- + INSERT in one Postgres transaction), not an incremental upsert. Source files under

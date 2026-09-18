@@ -1,0 +1,20 @@
+services:
+  setubid-postgres:
+    image: postgres:16
+    container_name: setubid-postgres
+    environment:
+      POSTGRES_USER: setubid
+      POSTGRES_PASSWORD: setubid123
+      POSTGRES_DB: setubid
+    ports:
+      - "5433:5432"
+    volumes:
+      - setubid-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U setubid -d setubid"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  setubid-pgdata:
