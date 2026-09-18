@@ -1,0 +1,14 @@
+# Exam-provided datasets. Not part of this submission -- see README.md
+# "Getting the provided data in place" for where the evaluator should copy
+# them before running the setup commands.
+data-mining-lab-1/data/data_2.zip
+data-mining-lab-1/data/data_2.zip:Zone.Identifier
+data-mining-lab-1/data/question1/sales/
+data-mining-lab-1/data/question1/_truth/
+data-mining-lab-1/data/question1/masters.sql
+data-mining-lab-1/data/question1/billing_notes.md
+data-mining-lab-1/data/question1/finance_monthly.csv
+data-mining-lab-1/data/question2/
+
+# Generated, not authored.
+data-mining-lab-1/data/question1/duckdb/annapurna.duckdb
